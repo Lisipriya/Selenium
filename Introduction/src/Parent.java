@@ -6,7 +6,7 @@ public class Parent {
 
 		System.out.println("Welcome to Coding");
 		Methods m = new Methods();
-		System.out.println(m.HeaderValidation());
+		System.out.println(m.HeaderValidation("fully tested"));
 		
 	}
 
