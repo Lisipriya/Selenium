@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.Color;
 
-public class TaskFlipkart {
+public class Day4TaskFlipkart {
 
 	public static void main(String[] args) throws Exception {	
 		// TODO Auto-generated method stub
@@ -30,8 +30,7 @@ public class TaskFlipkart {
 		HoverAddToCompare(driver, firstRandom);
 		HoverAddToCompare(driver, secondRandom);
 		ClickCompare(driver);
-		
-		//driver.quit();
+		driver.quit();
 
 	}
 	public static void OpenFlipkart(WebDriver driver){
